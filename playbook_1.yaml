@@ -5,7 +5,3 @@
     ansible.builtin.ping;
 
 
-
-# ansible -i inventory web --list-hosts - to check web hosts
-# ansible -i inventory all --list-hosts - to check all hosts
-# ansible -i inventory ungrouped --list-hosts - to check ungrouped hosts
