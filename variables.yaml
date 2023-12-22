@@ -1,3 +1,7 @@
 Course: "AWS DevOps"
 Duration: "110HRS"
 Trainer: "Sivakumar"
+
+
+Person: "Siva from variable file"
+Wishes: "Morning from variables file"
