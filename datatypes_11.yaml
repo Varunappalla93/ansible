@@ -29,5 +29,5 @@
 
       
     - name: print Trainer
-      ansible.builtin.debug;
+      ansible.builtin.debug:
         msg: "Trainer: {{Trainer}}"
