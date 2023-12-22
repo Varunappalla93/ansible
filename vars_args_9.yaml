@@ -4,3 +4,7 @@
   - name: check variables
     ansible.builtin.debug:
       msg: "Hi, {{Person}}, Good {{WISHES}}"
+
+
+  # ansible-playbook -i inventory -e ansible_user=centos -e ansible_password=DevOps321 
+  # vars_args_9.yaml -e "Person=QA" -e "WISHES=morning
