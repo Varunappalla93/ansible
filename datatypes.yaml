@@ -1,0 +1,33 @@
+- name: checking data types
+  hosts: local host
+  vars:
+    name: varun # key value pair
+    skills:  # list type
+    - DevOps
+    - QA
+    - Ansible
+    - Linux
+
+    experience:  # map type, contains key value pairs
+      DevOps: 7 years
+      AWS: 6 years
+      Docker: 4 years
+
+    Trainer: true
+    Tasks:
+      - name: print key-value pair
+        ansible.builtin.debug;
+          msg: "name: {{name}}"
+
+      - name: print list
+        ansible.builtin.debug;
+          msg: "Skills: {{skills}}"
+
+      - name: print map
+        ansible.builtin.debug;
+          msg: "Experience: {{experience}}"
+
+      
+      - name: print Trainer
+        ansible.builtin.debug;
+          msg: "Trainer: {{Trainer}}"
