@@ -14,20 +14,20 @@
       Docker: 4 years
 
     Trainer: true
-    Tasks:
-      - name: print key-value pair
-        ansible.builtin.debug;
-          msg: "name: {{name}}"
+    tasks:
+    - name: print key-value pair
+      ansible.builtin.debug;
+        msg: "name: {{name}}"
 
-      - name: print list
-        ansible.builtin.debug;
-          msg: "Skills: {{skills}}"
+    - name: print list
+      ansible.builtin.debug;
+        msg: "Skills: {{skills}}"
 
-      - name: print map
-        ansible.builtin.debug;
-          msg: "Experience: {{experience}}"
+    - name: print map
+      ansible.builtin.debug;
+        msg: "Experience: {{experience}}"
 
       
-      - name: print Trainer
-        ansible.builtin.debug;
-          msg: "Trainer: {{Trainer}}"
+    - name: print Trainer
+      ansible.builtin.debug;
+        msg: "Trainer: {{Trainer}}"
