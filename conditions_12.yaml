@@ -1,5 +1,5 @@
 - name: Conditions
-  host: localhost
+  hosts: localhost
   tasks:
     - name: check roboshop user exists or not
       ansible.builtin.command: id roboshop
@@ -8,5 +8,5 @@
     
     - name: print variable value
       ansible.builtin.debug:
-        msg: "User output is {{user}}"
+        msg: "User output is: {{user}}"
 
