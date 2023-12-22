@@ -23,3 +23,8 @@
 
       ansible.builtin.debug:
         msg: "Hi, {{Person}}, Good {{Wishes}}"
+
+
+# ansible-playbook -i inventory -e ansible_user=centos -e ansible_password=DevOps321 vars_preference_10.yaml -e "Person=QAfromcmd" -e "Wishes=morningfromcmd"
+# first pref is always from cmd, second pref is task level, third pref is file level,fourth pref is prompt level,
+# fifth pref is play level, sixth pref is play level
