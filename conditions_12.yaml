@@ -7,6 +7,6 @@
       ignore_errors: true
     
     - name: print variable value
-      ansible.builtin.debug
+      ansible.builtin.debug:
         msg: "User output is {{user}}"
 
