@@ -8,7 +8,7 @@
       prompt: Please enter your name
       private: false 
 
-    - name: wishes
+    - name: Wishes
       prompt: Please enter your wishes
       private: false 
 
