@@ -3,3 +3,7 @@
   tasks:
   - name: ping the server
     ansible.builtin.ping:
+
+
+# ansible-vault create group_vars/web.yaml
+# ansible-vault edit group_vars/web.yaml
